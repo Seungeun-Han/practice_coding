@@ -1,6 +1,5 @@
 def solution(arr, k):
     answer = []
-    set_answer = list(set(arr))
     
     for i in arr:
         if len(answer)==k:
