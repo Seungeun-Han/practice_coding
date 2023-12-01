@@ -11,3 +11,14 @@ def solution(babbling):
     answer = len([0 for i in babbling if i in possible])
     
     return answer
+
+
+# def solution(babbling):
+#     c = 0
+#     for b in babbling:
+#         for w in [ "aya", "ye", "woo", "ma" ]:
+#             if w * 2 not in b:
+#                 b = b.replace(w, ' ')
+#         if len(b.strip()) == 0:
+#             c += 1
+#     return c
